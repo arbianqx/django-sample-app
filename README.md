@@ -1,6 +1,3 @@
-# Django-WebApp       <img alt="GitHub" src="https://img.shields.io/github/license/smahesh29/Django-WebApp">
-
-
 This project was done by me as a assignment for an internship.
 
 <h2>Assignment Problem Statement:</h2>
@@ -47,30 +44,16 @@ This project was done by me as a assignment for an internship.
 
 <h2>Usage :</h2>
 
-    python django_web_app/manage.py makemigrations
+    python -m venv .env
 
-    python django_web_app/manage.py migrate
+    source .env/bin/activate
 
-    python django_web_app/manage.py runserver
+    pip install -r requirements.txt
+
+    python manage.py makemigrations
+
+    python manage.py migrate
+
+    python manage.py runserver
     
    In your web browser enter the address : http://localhost:8000 or http://127.0.0.1:8000/
-
-# Working:
-[![Watch the video](https://img.youtube.com/vi/qIK-vfTig6c/0.jpg)](https://youtu.be/qIK-vfTig6c)
-
-# Screenshots : 
-<img src="Screenshots/New Tab - Google Chrome 03-12-2019 19_14_36.png" height="400" width="800">
-<img src="Screenshots/New Tab - Google Chrome 03-12-2019 19_14_51.png" height="400" width="800">
-<img src="Screenshots/New Tab - Google Chrome 03-12-2019 19_14_44.png" height="400" width="800">
-<img src="Screenshots/New Tab - Google Chrome 03-12-2019 19_15_47.png" height="400" width="800">
-<img src="Screenshots/New Tab - Google Chrome 03-12-2019 19_16_14.png" height="400" width="800">
-<img src="Screenshots/Django WebApp - Google Chrome 04-12-2019 13_41_50.png" height="400" width="800">
-<img src="Screenshots/Django WebApp - Google Chrome 03-12-2019 20_48_45.png" height="400" width="800">
-
-# Support :
-If you found this project helpful or you learned something from the source code and want to thank me, consider me to pay my internet bills. This would encourage me to create many such projects 👨🏻‍💻
-<ul>
-    <li><a href="https://www.paypal.me/smahesh29"><b>PayPal</b></a></li>
-    <li><a href="https://imjo.in/XNZDCJ"><b>₹ (INR)</b></a></li>
-    <li><b>UPI ID :</b> maheshusa29@oksbi</li>
-</ul>
